@@ -1,0 +1,6 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "deploy": {
+    "startCommand": "NEXT_TELEMETRY_DISABLED=1 NEXT_DEV=true node scripts/dev-supervisor.js"
+  }
+}
